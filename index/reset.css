@@ -1,0 +1,63 @@
+
+/* reset.css */
+/* Reset margin, padding, and border for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a consistent font size and family */
+html {
+  font-size: 100%; /* Default to 16px */
+  line-height: 1.5;
+}
+
+/* Remove list styles */
+ol, ul {
+  list-style: none;
+}
+
+/* Remove default border and padding for blockquote and fieldset */
+blockquote, fieldset {
+  border: 0;
+  padding: 0;
+}
+
+/* Reset table styling */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove quotes from blockquotes in modern browsers */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+}
+
+/* Remove border for images and fieldset elements */
+img, fieldset {
+  border: 0;
+}
+
+/* Remove underline from links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset form elements */
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Remove background and border for buttons */
+button {
+  background: none;
+  cursor: pointer;
+}

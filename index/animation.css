@@ -1,0 +1,12 @@
+@keyframes fadeIn{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes slideDown{
+  from {transform: translateY(0);}
+  to {transform: translateY(26px);}
+}
+@keyframes slideUp{
+  from {transform: translateY(50px);}
+  to {transform: translatey(0);}
+}
